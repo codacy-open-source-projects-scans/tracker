@@ -1,0 +1,1083 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Yair Hershkovitz, 2008.
+# Yosef Or Boczko <yoseforb@gmail.com>, 2020-2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tracker\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/tracker/issues\n"
+"POT-Creation-Date: 2023-01-20 15:13+0000\n"
+"PO-Revision-Date: 2023-01-25 10:12+0200\n"
+"Last-Translator: Yosef Or Boczko <yoseforb@gmail.com>\n"
+"Language-Team: Hebrew <yoseforb@gmail.com>\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n>2||n==0) ? 1 : 2\n"
+"X-Generator: Gtranslator 42.0\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Translators: this is a '|' (U+007C) separated list of common
+#. * title beginnings. Meant to be skipped for sorting purposes,
+#. * case doesn't matter. Given English media is quite common, it is
+#. * advised to leave the untranslated articles in addition to
+#. * the translated ones.
+#.
+#: src/libtracker-sparql/core/tracker-collation.c:333
+msgid "the|a|an"
+msgstr "the|a|an"
+
+#: src/portal/tracker-main.c:53
+msgid "Version"
+msgstr "Version"
+
+#: src/portal/tracker-main.c:110 src/tracker/tracker-endpoint.c:387
+#: src/tracker/tracker-export.c:543 src/tracker/tracker-import.c:196
+#: src/tracker/tracker-sparql.c:1566 src/tracker/tracker-sql.c:239
+msgid "Unrecognized options"
+msgstr "Unrecognized options"
+
+#: src/tracker/tracker-endpoint.c:50 src/tracker/tracker-export.c:49
+#: src/tracker/tracker-import.c:46 src/tracker/tracker-sparql.c:110
+#: src/tracker/tracker-sql.c:44
+msgid "Location of the database"
+msgstr "Location of the database"
+
+#: src/tracker/tracker-endpoint.c:51 src/tracker/tracker-endpoint.c:63
+msgid "DIR"
+msgstr "DIR"
+
+#: src/tracker/tracker-endpoint.c:54
+msgid "Specify the DBus name of this endpoint"
+msgstr "Specify the DBus name of this endpoint"
+
+#: src/tracker/tracker-endpoint.c:55 src/tracker/tracker-endpoint.c:59
+msgid "NAME"
+msgstr "NAME"
+
+#: src/tracker/tracker-endpoint.c:58
+msgid "Specify the ontology name used in this endpoint"
+msgstr "Specify the ontology name used in this endpoint"
+
+#: src/tracker/tracker-endpoint.c:62
+msgid "Specify a path to an ontology to be used in this endpoint"
+msgstr "Specify a path to an ontology to be used in this endpoint"
+
+#: src/tracker/tracker-endpoint.c:66
+msgid "HTTP port"
+msgstr "HTTP port"
+
+#: src/tracker/tracker-endpoint.c:70
+msgid "Whether to only allow HTTP connections in the loopback device"
+msgstr "Whether to only allow HTTP connections in the loopback device"
+
+#: src/tracker/tracker-endpoint.c:74
+msgid "Use session bus"
+msgstr "Use session bus"
+
+#: src/tracker/tracker-endpoint.c:78
+msgid "Use system bus"
+msgstr "Use system bus"
+
+#: src/tracker/tracker-endpoint.c:82
+msgid "List SPARQL endpoints available in DBus"
+msgstr "List SPARQL endpoints available in DBus"
+
+#. TRANSLATORS: these are commandline arguments
+#: src/tracker/tracker-endpoint.c:103
+msgid "--list can only be used with --session or --system"
+msgstr "--list can only be used with --session or --system"
+
+#. TRANSLATORS: those are commandline arguments
+#: src/tracker/tracker-endpoint.c:109
+msgid "One “ontology” or “ontology-path” option should be provided"
+msgstr "One “ontology” or “ontology-path” option should be provided"
+
+#. TRANSLATORS: those are commandline arguments
+#: src/tracker/tracker-endpoint.c:115
+msgid "--http-port cannot be used with --dbus-service"
+msgstr "--http-port cannot be used with --dbus-service"
+
+#: src/tracker/tracker-endpoint.c:186
+#, c-format
+msgid "Creating HTTP endpoint at %s…"
+msgstr "Creating HTTP endpoint at %s…"
+
+#: src/tracker/tracker-endpoint.c:206 src/tracker/tracker-endpoint.c:269
+msgid "Listening to SPARQL commands. Press Ctrl-C to stop."
+msgstr "Listening to SPARQL commands. Press Ctrl-C to stop."
+
+#. Carriage return, so we paper over the ^C
+#: src/tracker/tracker-endpoint.c:214 src/tracker/tracker-endpoint.c:284
+msgid "Closing connection…"
+msgstr "Closing connection…"
+
+#: src/tracker/tracker-endpoint.c:229
+#, c-format
+msgid "Creating endpoint at %s…"
+msgstr "Creating endpoint at %s…"
+
+#: src/tracker/tracker-endpoint.c:265
+msgid "Could not own DBus name"
+msgstr "Could not own DBus name"
+
+#: src/tracker/tracker-endpoint.c:279
+msgid "DBus name lost"
+msgstr "DBus name lost"
+
+#: src/tracker/tracker-endpoint.c:421
+#, c-format
+msgid "Opening database at %s…"
+msgstr "Opening database at %s…"
+
+#: src/tracker/tracker-endpoint.c:424
+msgid "Creating in-memory database"
+msgstr "Creating in-memory database"
+
+#: src/tracker/tracker-endpoint.c:451
+msgid ""
+"New database created. Use the “--dbus-service” option to share this database "
+"on a message bus."
+msgstr ""
+"New database created. Use the “--dbus-service” option to share this database "
+"on a message bus."
+
+#: src/tracker/tracker-export.c:50 src/tracker/tracker-import.c:47
+#: src/tracker/tracker-import.c:62 src/tracker/tracker-import.c:63
+#: src/tracker/tracker-sparql.c:111 src/tracker/tracker-sparql.c:123
+#: src/tracker/tracker-sql.c:45 src/tracker/tracker-sql.c:49
+msgid "FILE"
+msgstr "FILE"
+
+#: src/tracker/tracker-export.c:53 src/tracker/tracker-import.c:50
+#: src/tracker/tracker-sparql.c:114
+msgid "Connects to a DBus service"
+msgstr "Connects to a DBus service"
+
+#: src/tracker/tracker-export.c:54 src/tracker/tracker-import.c:51
+#: src/tracker/tracker-sparql.c:115
+msgid "DBus service name"
+msgstr "DBus service name"
+
+#: src/tracker/tracker-export.c:57
+msgid "Output results format: “turtle”, “trig” or “json-ld”"
+msgstr "Output results format: “turtle”, “trig” or “json-ld”"
+
+#: src/tracker/tracker-export.c:58
+msgid "RDF_FORMAT"
+msgstr "RDF_FORMAT"
+
+#: src/tracker/tracker-export.c:61 src/tracker/tracker-import.c:54
+#: src/tracker/tracker-sparql.c:118
+msgid "Connects to a remote service"
+msgstr "Connects to a remote service"
+
+#: src/tracker/tracker-export.c:62 src/tracker/tracker-import.c:55
+#: src/tracker/tracker-sparql.c:119
+msgid "Remote service URI"
+msgstr "Remote service URI"
+
+#: src/tracker/tracker-export.c:65
+msgid "Output TriG format which includes named graph information"
+msgstr "Output TriG format which includes named graph information"
+
+#: src/tracker/tracker-export.c:77 src/tracker/tracker-export.c:78
+msgid "IRI"
+msgstr "IRI"
+
+#. TRANSLATORS: Those are commandline arguments
+#: src/tracker/tracker-export.c:103 src/tracker/tracker-import.c:88
+#: src/tracker/tracker-sparql.c:199
+msgid "Specify one “--database”, “--dbus-service” or “--remote-service” option"
+msgstr ""
+"Specify one “--database”, “--dbus-service” or “--remote-service” option"
+
+#: src/tracker/tracker-export.c:310 src/tracker/tracker-export.c:331
+#: src/tracker/tracker-import.c:125 src/tracker/tracker-sparql.c:1124
+msgid "No error given"
+msgstr "No error given"
+
+#: src/tracker/tracker-export.c:330 src/tracker/tracker-import.c:124
+#: src/tracker/tracker-sparql.c:1123
+msgid "Could not establish a connection to Tracker"
+msgstr "Could not establish a connection to Tracker"
+
+#: src/tracker/tracker-export.c:373
+#, c-format
+msgid "Unsupported serialization format “%s”\n"
+msgstr "Unsupported serialization format “%s”\n"
+
+#: src/tracker/tracker-export.c:425 src/tracker/tracker-export.c:438
+#: src/tracker/tracker-export.c:448 src/tracker/tracker-sparql.c:1502
+#: src/tracker/tracker-sql.c:137 src/tracker/tracker-sql.c:170
+msgid "Could not run query"
+msgstr "Could not run query"
+
+#: src/tracker/tracker-help.c:60 src/tracker/tracker-help.c:72
+#, c-format
+msgid "failed to exec “%s”: %s"
+msgstr "failed to exec “%s”: %s"
+
+#: src/tracker/tracker-import.c:58
+msgid "Read TriG format which includes named graph information"
+msgstr "Read TriG format which includes named graph information"
+
+#: src/tracker/tracker-import.c:103 src/tracker/tracker-import.c:141
+msgid "Could not run import"
+msgstr "Could not run import"
+
+#: src/tracker/tracker-main.c:89
+msgid "Get help on how to use Tracker and any of these commands"
+msgstr "Get help on how to use Tracker and any of these commands"
+
+#: src/tracker/tracker-main.c:90
+msgid "Create a SPARQL endpoint"
+msgstr "Create a SPARQL endpoint"
+
+#: src/tracker/tracker-main.c:91
+msgid "Export data from a Tracker database"
+msgstr "Export data from a Tracker database"
+
+#: src/tracker/tracker-main.c:92
+msgid "Import data into a Tracker database"
+msgstr "Import data into a Tracker database"
+
+#: src/tracker/tracker-main.c:93
+msgid ""
+"Query and update the index using SPARQL or search, list and tree the ontology"
+msgstr ""
+"Query and update the index using SPARQL or search, list and tree the ontology"
+
+#: src/tracker/tracker-main.c:94
+msgid "Query the database at the lowest level using SQL"
+msgstr "Query the database at the lowest level using SQL"
+
+#: src/tracker/tracker-main.c:134
+#, c-format
+msgid "“%s” is not a tracker3 command. See “tracker3 --help”"
+msgstr "“%s” is not a tracker3 command. See “tracker3 --help”"
+
+#: src/tracker/tracker-main.c:169
+msgid "Available tracker3 commands are:"
+msgstr "Available tracker3 commands are:"
+
+#: src/tracker/tracker-main.c:209
+msgid "Additional / third party commands are:"
+msgstr "Additional / third party commands are:"
+
+#: src/tracker/tracker-main.c:224
+msgid "See “tracker3 help <command>” to read about a specific subcommand."
+msgstr "See “tracker3 help <command>” to read about a specific subcommand."
+
+#: src/tracker/tracker-sparql.c:122
+msgid "Path to use to run a query or update from file"
+msgstr "Path to use to run a query or update from file"
+
+#: src/tracker/tracker-sparql.c:126
+msgid "SPARQL query"
+msgstr "SPARQL query"
+
+#: src/tracker/tracker-sparql.c:127
+msgid "SPARQL"
+msgstr "SPARQL"
+
+#: src/tracker/tracker-sparql.c:130
+msgid "This is used with --query and for database updates only."
+msgstr "This is used with --query and for database updates only."
+
+#: src/tracker/tracker-sparql.c:134
+msgid "Retrieve classes"
+msgstr "Retrieve classes"
+
+#: src/tracker/tracker-sparql.c:138
+msgid "Retrieve class prefixes"
+msgstr "Retrieve class prefixes"
+
+#: src/tracker/tracker-sparql.c:142
+msgid ""
+"Retrieve properties for a class, prefixes can be used too (e.g. rdfs:"
+"Resource)"
+msgstr ""
+"Retrieve properties for a class, prefixes can be used too (e.g. rdfs:"
+"Resource)"
+
+#: src/tracker/tracker-sparql.c:143 src/tracker/tracker-sparql.c:147
+#: src/tracker/tracker-sparql.c:159 src/tracker/tracker-sparql.c:167
+#: src/tracker/tracker-sparql.c:171
+msgid "CLASS"
+msgstr "CLASS"
+
+#: src/tracker/tracker-sparql.c:146
+msgid ""
+"Retrieve classes which notify changes in the database (CLASS is optional)"
+msgstr ""
+"Retrieve classes which notify changes in the database (CLASS is optional)"
+
+#: src/tracker/tracker-sparql.c:150
+msgid ""
+"Retrieve indexes used in database to improve performance (PROPERTY is "
+"optional)"
+msgstr ""
+"Retrieve indexes used in database to improve performance (PROPERTY is "
+"optional)"
+
+#: src/tracker/tracker-sparql.c:151
+msgid "PROPERTY"
+msgstr "PROPERTY"
+
+#: src/tracker/tracker-sparql.c:154
+msgid "Retrieve all named graphs"
+msgstr "Retrieve all named graphs"
+
+#: src/tracker/tracker-sparql.c:158
+msgid ""
+"Describe subclasses, superclasses (can be used with -s to highlight parts of "
+"the tree and -p to show properties)"
+msgstr ""
+"Describe subclasses, superclasses (can be used with -s to highlight parts of "
+"the tree and -p to show properties)"
+
+#: src/tracker/tracker-sparql.c:162
+msgid ""
+"Search for a class or property and display more information (e.g. Document)"
+msgstr ""
+"Search for a class or property and display more information (e.g. Document)"
+
+#: src/tracker/tracker-sparql.c:163
+msgid "CLASS/PROPERTY"
+msgstr "CLASS/PROPERTY"
+
+#: src/tracker/tracker-sparql.c:166
+msgid "Returns the shorthand for a class (e.g. nfo:FileDataObject)."
+msgstr "Returns the shorthand for a class (e.g. nfo:FileDataObject)."
+
+#: src/tracker/tracker-sparql.c:170
+msgid "Returns the full namespace for a class."
+msgstr "Returns the full namespace for a class."
+
+#: src/tracker/tracker-sparql.c:232
+msgid "Unable to retrieve namespace prefixes"
+msgstr "Unable to retrieve namespace prefixes"
+
+#: src/tracker/tracker-sparql.c:240
+msgid "No namespace prefixes were returned"
+msgstr "No namespace prefixes were returned"
+
+#: src/tracker/tracker-sparql.c:286
+msgid "Could not get namespace prefixes"
+msgstr "Could not get namespace prefixes"
+
+#: src/tracker/tracker-sparql.c:295
+msgid "No namespace prefixes were found"
+msgstr "No namespace prefixes were found"
+
+#. To translators: This is to say there are no
+#. * search results found. We use a "foo: None"
+#. * with multiple print statements, where "foo"
+#. * may be Music or Images, etc.
+#: src/tracker/tracker-sparql.c:541 src/tracker/tracker-sparql.c:589
+msgid "None"
+msgstr "None"
+
+#: src/tracker/tracker-sparql.c:1003
+msgid "Could not create tree: subclass query failed"
+msgstr "Could not create tree: subclass query failed"
+
+#: src/tracker/tracker-sparql.c:1052
+msgid "Could not create tree: class properties query failed"
+msgstr "Could not create tree: class properties query failed"
+
+#: src/tracker/tracker-sparql.c:1139
+msgid "Could not list classes"
+msgstr "Could not list classes"
+
+#: src/tracker/tracker-sparql.c:1147
+msgid "No classes were found"
+msgstr "No classes were found"
+
+#: src/tracker/tracker-sparql.c:1147 src/tracker/tracker-sparql.c:1363
+msgid "Classes"
+msgstr "Classes"
+
+#: src/tracker/tracker-sparql.c:1163
+msgid "Could not list class prefixes"
+msgstr "Could not list class prefixes"
+
+#: src/tracker/tracker-sparql.c:1171
+msgid "No class prefixes were found"
+msgstr "No class prefixes were found"
+
+#: src/tracker/tracker-sparql.c:1171
+msgid "Prefixes"
+msgstr "קידומות"
+
+#: src/tracker/tracker-sparql.c:1191
+msgid ""
+"Could not find property for class prefix, e.g. :Resource in “rdfs:Resource”"
+msgstr ""
+"Could not find property for class prefix, e.g. :Resource in “rdfs:Resource”"
+
+#: src/tracker/tracker-sparql.c:1230
+msgid "Could not list properties"
+msgstr "Could not list properties"
+
+#: src/tracker/tracker-sparql.c:1238
+msgid "No properties were found"
+msgstr "No properties were found"
+
+#: src/tracker/tracker-sparql.c:1238 src/tracker/tracker-sparql.c:1386
+msgid "Properties"
+msgstr "Properties"
+
+#: src/tracker/tracker-sparql.c:1266
+msgid "Could not find notify classes"
+msgstr "Could not find notify classes"
+
+#: src/tracker/tracker-sparql.c:1274
+msgid "No notifies were found"
+msgstr "No notifies were found"
+
+#: src/tracker/tracker-sparql.c:1274
+msgid "Notifies"
+msgstr "Notifies"
+
+#: src/tracker/tracker-sparql.c:1300
+msgid "Could not find indexed properties"
+msgstr "Could not find indexed properties"
+
+#: src/tracker/tracker-sparql.c:1308
+msgid "No indexes were found"
+msgstr "No indexes were found"
+
+#: src/tracker/tracker-sparql.c:1308
+msgid "Indexes"
+msgstr "Indexes"
+
+#: src/tracker/tracker-sparql.c:1324
+msgid "Could not list named graphs"
+msgstr "Could not list named graphs"
+
+#: src/tracker/tracker-sparql.c:1332
+msgid "No graphs were found"
+msgstr "No graphs were found"
+
+#: src/tracker/tracker-sparql.c:1332
+msgid "Named graphs"
+msgstr "Named graphs"
+
+#: src/tracker/tracker-sparql.c:1355
+msgid "Could not search classes"
+msgstr "Could not search classes"
+
+#: src/tracker/tracker-sparql.c:1363
+msgid "No classes were found to match search term"
+msgstr "No classes were found to match search term"
+
+#: src/tracker/tracker-sparql.c:1378
+msgid "Could not search properties"
+msgstr "Could not search properties"
+
+#: src/tracker/tracker-sparql.c:1386
+msgid "No properties were found to match search term"
+msgstr "No properties were found to match search term"
+
+#: src/tracker/tracker-sparql.c:1423 src/tracker/tracker-sql.c:70
+msgid "Could not get UTF-8 path from path"
+msgstr "Could not get UTF-8 path from path"
+
+#: src/tracker/tracker-sparql.c:1435 src/tracker/tracker-sql.c:81
+msgid "Could not read file"
+msgstr "Could not read file"
+
+#: src/tracker/tracker-sparql.c:1454
+msgid "Could not run update"
+msgstr "Could not run update"
+
+#: src/tracker/tracker-sparql.c:1461
+msgid "Done"
+msgstr "Done"
+
+#: src/tracker/tracker-sparql.c:1515 src/tracker/tracker-sparql.c:1518
+msgid "No results found matching your query"
+msgstr "No results found matching your query"
+
+#: src/tracker/tracker-sparql.c:1515 src/tracker/tracker-sparql.c:1518
+#: src/tracker/tracker-sql.c:144
+msgid "Results"
+msgstr "Results"
+
+#: src/tracker/tracker-sparql.c:1575 src/tracker/tracker-sql.c:250
+msgid "File and query can not be used together"
+msgstr "File and query can not be used together"
+
+#: src/tracker/tracker-sparql.c:1577
+msgid ""
+"The --list-properties argument can only be empty when used with the --tree "
+"argument"
+msgstr ""
+"The --list-properties argument can only be empty when used with the --tree "
+"argument"
+
+#: src/tracker/tracker-sql.c:48
+msgid "Path to use to run a query from file"
+msgstr "Path to use to run a query from file"
+
+#: src/tracker/tracker-sql.c:52
+msgid "SQL query"
+msgstr "SQL query"
+
+#: src/tracker/tracker-sql.c:53
+msgid "SQL"
+msgstr "SQL"
+
+#: src/tracker/tracker-sql.c:114
+msgid "Failed to initialize data manager"
+msgstr "Failed to initialize data manager"
+
+#: src/tracker/tracker-sql.c:178
+msgid "Empty result set"
+msgstr "Empty result set"
+
+#: src/tracker/tracker-sql.c:248
+msgid "A database path must be specified"
+msgstr "A database path must be specified"
+
+#, fuzzy
+#~ msgid "Initial sleep time, in seconds."
+#~ msgstr "Initial sleep time, just before indexing, in seconds"
+
+#, fuzzy
+#~ msgid "Directories to index non-recursively"
+#~ msgstr "Directory to include in indexing"
+
+#~ msgid "Applications"
+#~ msgstr "יישומים"
+
+#, fuzzy
+#~ msgid "Applications data miner"
+#~ msgstr "יישומים"
+
+#~ msgid "File System"
+#~ msgstr "מערכת קבצים"
+
+#, fuzzy
+#~ msgid "Tracker File System Miner"
+#~ msgstr "אתר האינטרנט של Tracker"
+
+#, fuzzy
+#~ msgid "Tracker Store"
+#~ msgstr "אתר האינטרנט של Tracker"
+
+#, fuzzy
+#~ msgid "unknown time"
+#~ msgstr "לא ידוע"
+
+#, fuzzy
+#~ msgid " %2.2d second"
+#~ msgid_plural " %2.2d seconds"
+#~ msgstr[0] "שניות"
+#~ msgstr[1] "שניות"
+
+#~ msgid "No"
+#~ msgstr "לא"
+
+#, fuzzy
+#~ msgid "- start the tracker indexer"
+#~ msgstr "- start the tracker daemon"
+
+#, fuzzy
+#~ msgid "- start the feeds indexer"
+#~ msgstr "- start the tracker daemon"
+
+#~ msgid "Tracker"
+#~ msgstr "‏Tracker"
+
+#~ msgid "Components"
+#~ msgstr "רכיבים"
+
+#~ msgid "General options"
+#~ msgstr "אפשרויות כלליות"
+
+#, fuzzy
+#~ msgid "List all miners installed"
+#~ msgstr "List all defined tags"
+
+#, fuzzy
+#~ msgid "Application"
+#~ msgid_plural "Applications"
+#~ msgstr[0] "יישומים"
+#~ msgstr[1] "יישומים"
+
+#~ msgid "_Search:"
+#~ msgstr "_חיפוש:"
+
+#, fuzzy
+#~ msgid "Remove selected tag"
+#~ msgstr "Remove specified tag from a file"
+
+#~ msgid "Document"
+#~ msgid_plural "Documents"
+#~ msgstr[0] "מסמך"
+#~ msgstr[1] "מסמכים"
+
+#~ msgid "File"
+#~ msgid_plural "Files"
+#~ msgstr[0] "קובץ"
+#~ msgstr[1] "קבצים"
+
+#~ msgid "Folder"
+#~ msgid_plural "Folders"
+#~ msgstr[0] "תיקייה"
+#~ msgstr[1] "תיקיות"
+
+#~ msgid "Image"
+#~ msgid_plural "Images"
+#~ msgstr[0] "תמונה"
+#~ msgstr[1] "תמונות"
+
+#, fuzzy
+#~ msgid "Music Track"
+#~ msgid_plural "Music Tracks"
+#~ msgstr[0] "מוזיקה"
+#~ msgstr[1] "מוזיקה"
+
+#, fuzzy
+#~ msgid "Email"
+#~ msgid_plural "Emails"
+#~ msgstr[0] "דוא\"ל"
+#~ msgstr[1] "דוא\"ל"
+
+#~ msgid "Name"
+#~ msgstr "שם"
+
+#~ msgid "Today"
+#~ msgstr "היום"
+
+#~ msgid "Tomorrow"
+#~ msgstr "מחר"
+
+#~ msgid "Yesterday"
+#~ msgstr "אתמול"
+
+#~ msgid "Less than one second"
+#~ msgstr "לפני פחות משנייה"
+
+#~ msgid "No Search Results"
+#~ msgstr "אין תוצאות לחיפוש"
+
+#~ msgid "Size"
+#~ msgstr "גודל"
+
+#~ msgid "Music"
+#~ msgstr "מוזיקה"
+
+#~ msgid "Images"
+#~ msgstr "תמונות"
+
+#~ msgid "Videos"
+#~ msgstr "סרטי וידאו"
+
+#~ msgid "Documents"
+#~ msgstr "מסמכים"
+
+#~ msgid "Mail"
+#~ msgstr "דוא״ל"
+
+#~ msgid "Folders"
+#~ msgstr "תיקיות"
+
+#~ msgid "Bookmarks"
+#~ msgstr "סימניות"
+
+#~ msgid "Items"
+#~ msgstr "פריטים"
+
+#~ msgid "Loading..."
+#~ msgstr "בטעינה…"
+
+#~ msgid "Pages"
+#~ msgstr "עמודים"
+
+#~ msgid "_Tags..."
+#~ msgstr "_תגיות…"
+
+#, fuzzy
+#~ msgid "Indexing Preferences"
+#~ msgstr "_העדפות"
+
+#, fuzzy
+#~ msgid "Limitations"
+#~ msgstr "יישומים"
+
+#~ msgid "<b>Garbage Collection</b>"
+#~ msgstr "<b>איסוף זבל</b>"
+
+#, fuzzy
+#~ msgid "Add directory to be indexed"
+#~ msgstr "Directory to include in indexing"
+
+#~ msgid "Locations"
+#~ msgstr "מיקומים"
+
+#~ msgid "Files"
+#~ msgstr "קבצים"
+
+#~ msgid "seconds"
+#~ msgstr "שניות"
+
+#, fuzzy
+#~ msgid "Desktop Search preferences"
+#~ msgstr "העדפות Tracker"
+
+#~ msgid "Force a re-index of all content"
+#~ msgstr "Force a re-index of all content"
+
+#~ msgid "- start the tracker daemon"
+#~ msgstr "- start the tracker daemon"
+
+#, fuzzy
+#~ msgid "One or more files have not been specified"
+#~ msgstr "Search for files with specified tag"
+
+#, fuzzy
+#~ msgid "Limit the number of results shown"
+#~ msgstr "Limit the number of results showed to N"
+
+#~ msgid "Search for files"
+#~ msgstr "חיפוש אחר קבצים"
+
+#~ msgid "Search for music files"
+#~ msgstr "חיפוש אחר קובצי מוזיקה"
+
+#~ msgid "Search for image files"
+#~ msgstr "חיפוש אחר קובצי תמונות"
+
+#~ msgid "Search for emails"
+#~ msgstr "חיפוש אחר הודעות דוא״ל"
+
+#, fuzzy
+#~ msgid "search terms"
+#~ msgstr "%s: missing search terms"
+
+#~ msgid "Contacts"
+#~ msgstr "אנשי קשר"
+
+#~ msgid "No name"
+#~ msgstr "אין שם"
+
+#~ msgid "No E-mail address"
+#~ msgstr "אין כתובת דוא״ל"
+
+#~ msgid "No files were found"
+#~ msgstr "לא נמצאו קבצים"
+
+#~ msgid "No music was found"
+#~ msgstr "לא נמצאה מוזיקה"
+
+#~ msgid "Albums"
+#~ msgstr "אלבומים"
+
+#~ msgid "No bookmarks were found"
+#~ msgstr "לא נמצאו סימניות"
+
+#~ msgid "Software Categories"
+#~ msgstr "קטגוריות תכנה"
+
+#~ msgid "No results were found matching your query"
+#~ msgstr "לא נמצאו תוצאות התואמות את השאילתה שלך"
+
+#~ msgid "Statistics:"
+#~ msgstr "סטטיסטיקה:"
+
+#~ msgid "TAG"
+#~ msgstr "TAG"
+
+#, fuzzy
+#~ msgid "- start the tracker writeback service"
+#~ msgstr "- start the tracker daemon"
+
+#~ msgid "Saved queries"
+#~ msgstr "שאילתות שמורות"
+
+#~ msgid "Email from %s"
+#~ msgstr "דוא\"ל מ-%s"
+
+#~ msgid "Development Files"
+#~ msgstr "קבצי פיתוח"
+
+#~ msgid "Search for %s with Tracker Search Tool"
+#~ msgstr "חפש %s בעזרת כלי החיפוש Tracker"
+
+#~ msgid "Path : <b>%s</b>"
+#~ msgstr "נתיב : <b>%s</b>"
+
+#~ msgid "Sender : <b>%s</b>"
+#~ msgstr "שולח : <b>%s</b>"
+
+#~ msgid "Date : <b>%s</b>"
+#~ msgstr "תאריך : <b>%s</b>"
+
+#~ msgid "Comment : <b>%s</b>"
+#~ msgstr "הערה : <b>%s</b>"
+
+#~ msgid "Categories : <b>%s</b>"
+#~ msgstr "קטגוריות : <b>%s</b>"
+
+#~ msgid "Duration : <b>%s</b>"
+#~ msgstr "משך : <b>%s</b>"
+
+#~ msgid "Year : <b>%s</b>"
+#~ msgstr "שנה : <b>%s</b>"
+
+#~ msgid "Codec : <b>%s</b>"
+#~ msgstr "מקודד : <b>%s</b>"
+
+#~ msgid "Author : <b>%s</b>"
+#~ msgstr "יוצר : <b>%s</b>"
+
+#~ msgid "Subject : <b>%s</b>"
+#~ msgstr "נושא : <b>%s</b>"
+
+#~ msgid "Comments : <b>%s</b>"
+#~ msgstr "הערות : <b>%s</b>"
+
+#~ msgid "%.1f KB"
+#~ msgstr "‎%.1f KB"
+
+#~ msgid "%.1f MB"
+#~ msgstr "‎%.1f MB"
+
+#~ msgid "%.1f GB"
+#~ msgstr "‎%.1f GB"
+
+#~ msgid "SERVICE"
+#~ msgstr "SERVICE"
+
+#~ msgid "Show more detailed results with service and mime type as well"
+#~ msgstr "Show more detailed results with service and mime type as well"
+
+#~ msgid "TERM... - search files for certain terms"
+#~ msgstr "TERM... - search files for certain terms"
+
+#~ msgid ""
+#~ "Specifying more then one term, will be showed items containing ALL the "
+#~ "specified terms (term1 AND term2 - logical conjunction)"
+#~ msgstr ""
+#~ "Specifying more then one term, will be showed items containing ALL the "
+#~ "specified terms (term1 AND term2 - logical conjunction)"
+
+#~ msgid "The list of recognized services is:"
+#~ msgstr "The list of recognized services is:"
+
+#~ msgid "Try \"%s --help\" for more information."
+#~ msgstr "Try \"%s --help\" for more information."
+
+#~ msgid "Ensure \"tracker-store\" is running before launch this command."
+#~ msgstr "Ensure \"tracker-store\" is running before launch this command."
+
+#~ msgid "Service not recognized, searching in Other Files...\n"
+#~ msgstr "Service not recognized, searching in Other Files...\n"
+
+#~ msgid "%s: internal tracker error: %s"
+#~ msgstr "%s: internal tracker error: %s"
+
+#~ msgid " - show number of indexed files for each service"
+#~ msgstr " - show number of indexed files for each service"
+
+#~ msgid "fetching index stats"
+#~ msgstr "fetching index stats"
+
+#~ msgid "Add specified tag to a file"
+#~ msgstr "Add specified tag to a file"
+
+#~ msgid "Remove all tags from a file"
+#~ msgstr "Remove all tags from a file"
+
+#~ msgid "FILE... - manipulate tags on files"
+#~ msgstr "FILE... - manipulate tags on files"
+
+#~ msgid ""
+#~ "To add, remove, or search for multiple tags at the same time, join "
+#~ "multiple options like:"
+#~ msgstr ""
+#~ "To add, remove, or search for multiple tags at the same time, join "
+#~ "multiple options like:"
+
+#~ msgid "%s: invalid arguments"
+#~ msgstr "%s: invalid arguments"
+
+#~ msgid "Directory to exclude from indexing"
+#~ msgstr "Directory to exclude from indexing"
+
+#~ msgid "/PATH/DIR"
+#~ msgstr "/PATH/DIR"
+
+#~ msgid "Directory to crawl for indexing at start up only"
+#~ msgstr "Directory to crawl for indexing at start up only"
+
+#~ msgid "Disable any indexing or watching taking place"
+#~ msgstr "Disable any indexing or watching taking place"
+
+#~ msgid ""
+#~ "Value that controls the level of logging. Valid values are 0 (displays/"
+#~ "logs only errors), 1 (minimal), 2 (detailed), and 3 (debug)"
+#~ msgstr ""
+#~ "Value that controls the level of logging. Valid values are 0 (displays/"
+#~ "logs only errors), 1 (minimal), 2 (detailed), and 3 (debug)"
+
+#~ msgid "VALUE"
+#~ msgstr "VALUE"
+
+#~ msgid ""
+#~ "Value to use for throttling indexing. Value must be in range 0-99 "
+#~ "(default 0) with lower values increasing indexing speed"
+#~ msgstr ""
+#~ "Value to use for throttling indexing. Value must be in range 0-99 "
+#~ "(default 0) with lower values increasing indexing speed"
+
+#~ msgid "Minimizes the use of memory but may slow indexing down"
+#~ msgstr "Minimizes the use of memory but may slow indexing down"
+
+#~ msgid ""
+#~ "Language to use for stemmer and stop words list (ISO 639-1 2 characters "
+#~ "code)"
+#~ msgstr ""
+#~ "Language to use for stemmer and stop words list (ISO 639-1 2 characters "
+#~ "code)"
+
+#~ msgid "LANG"
+#~ msgstr "LANG"
+
+#~ msgid "Make tracker errors fatal"
+#~ msgstr "Make tracker errors fatal"
+
+#~ msgid "DIRECTORY"
+#~ msgstr "DIRECTORY"
+
+#~ msgid ""
+#~ "To include or exclude multiple directories at the same time, join "
+#~ "multiple options like:"
+#~ msgstr ""
+#~ "To include or exclude multiple directories at the same time, join "
+#~ "multiple options like:"
+
+#~ msgid "Tracker Applet"
+#~ msgstr "יישומון Tracker"
+
+#~ msgid "Tracker : "
+#~ msgstr "‏Tracker : "
+
+#~ msgid ""
+#~ "Tracker is free software; you can redistribute it and/or modify it under "
+#~ "the terms of the GNU General Public License as published by the Free "
+#~ "Software Foundation; either version 2 of the License, or (at your option) "
+#~ "any later version."
+#~ msgstr ""
+#~ "Tracker is free software; you can redistribute it and/or modify it under "
+#~ "the terms of the GNU General Public License as published by the Free "
+#~ "Software Foundation; either version 2 of the License, or (at your option) "
+#~ "any later version."
+
+#~ msgid ""
+#~ "Tracker is distributed in the hope that it will be useful, but WITHOUT "
+#~ "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+#~ "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+#~ "more details."
+#~ msgstr ""
+#~ "Tracker is distributed in the hope that it will be useful, but WITHOUT "
+#~ "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+#~ "FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+#~ "more details."
+
+#~ msgid ""
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with Tracker; if not, write to the Free Software Foundation, Inc., 59 "
+#~ "Temple Place, Suite 330, Boston, MA  02111-1307  USA"
+#~ msgstr ""
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with Tracker; if not, write to the Free Software Foundation, Inc., 59 "
+#~ "Temple Place, Suite 330, Boston, MA  02111-1307  USA"
+
+#~ msgid "Copyright © 2005-2008 The Tracker authors"
+#~ msgstr "Copyright © 2005-2008 The Tracker authors"
+
+#~ msgid "_About"
+#~ msgstr "_אודות"
+
+#~ msgid "_Quit"
+#~ msgstr "_יציאה"
+
+#~ msgid "Files:"
+#~ msgstr "קבצים:"
+
+#~ msgid "    Folders:"
+#~ msgstr "    תיקיות:"
+
+#~ msgid "    Documents:"
+#~ msgstr "    מסמכים:"
+
+#~ msgid "    Images:"
+#~ msgstr "    מוזיקה:"
+
+#~ msgid "    Text:"
+#~ msgstr "    טקסט:"
+
+#~ msgid "    Development:"
+#~ msgstr "    פיתוח:"
+
+#~ msgid "    Other:"
+#~ msgstr "    אחר:"
+
+#~ msgid "Applications:"
+#~ msgstr "יישומים:"
+
+#~ msgid "<b>Animation</b>"
+#~ msgstr "<b>אנימציה</b>"
+
+#~ msgid "Applet Preferences"
+#~ msgstr "העדפות יישומון"
+
+#~ msgid "gtk-close"
+#~ msgstr "gtk-close"
+
+#~ msgid "<b>Power management</b>"
+#~ msgstr "<b>ניהול צריכת חשמל</b>"
+
+#~ msgid "Faster"
+#~ msgstr "מהר יותר"
+
+#~ msgid "_Language:"
+#~ msgstr "_שפה:"
+
+#~ msgid "kB"
+#~ msgstr "kB"
+
+#~ msgid "All Files"
+#~ msgstr "כל הקבצים"
+
+#~ msgid "Text"
+#~ msgstr "טקסט"
+
+#~ msgid "Development"
+#~ msgstr "פיתוח"
+
+#~ msgid "_Open"
+#~ msgstr "_פתח"
+
+#~ msgid "Error"
+#~ msgstr "שגיאה"
+
+#~ msgid "Icon"
+#~ msgstr "סמל"
+
+#~ msgid "_Replace"
+#~ msgstr "_החלף"
+
+#~ msgid "link (broken)"
+#~ msgstr "קישור (שבור)"
+
+#~ msgid "link to %s"
+#~ msgstr "קישור ל-%s"
