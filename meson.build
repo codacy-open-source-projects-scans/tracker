@@ -1,5 +1,5 @@
 project('tracker', 'c',
-        version: '3.7.2',
+        version: '3.7.3',
         meson_version: '>=0.62',
         default_options: [
           'c_std=c99',
@@ -93,7 +93,7 @@ endif
 have_avahi = avahi_glib.found() and avahi_client.found()
 
 libmath = cc.find_library('m', required: false)
-libdl = cc.find_library('dl')
+libdl = cc.find_library('dl', required: false)
 
 if get_option('man')
   a2x = find_program('a2x')
